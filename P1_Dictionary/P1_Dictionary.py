@@ -7,7 +7,7 @@
 import json
 from difflib import get_close_matches
 
-data = json.load(open("D:\San\data.json" , "r"))
+data = json.load(open("data.json" , "r"))
 
 def translate(w):
     w = w.lower()                       # Converts input word to lower case
